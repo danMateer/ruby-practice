@@ -19,4 +19,4 @@ end
 
 puts censored_text
 
-# TODO: Add logic to ignore puncuation.
+# TODO: Add logic to ignore punctuation.
