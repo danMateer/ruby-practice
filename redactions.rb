@@ -1,5 +1,6 @@
-puts "Enter some text: "
+puts "Enter unedited text: "
 text = gets.chomp
+# TODO: Add logic to ignore punctuation.
 
 puts "Enter words to redact (separated by commas): "
 redact = gets.chomp.downcase
@@ -18,5 +19,3 @@ words.each do |word|
 end
 
 puts censored_text
-
-# TODO: Add logic to ignore punctuation.
